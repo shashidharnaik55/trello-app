@@ -1,0 +1,96 @@
+.card {
+  width: 20%;
+}
+
+textarea {
+  max-height: 40px;
+}
+
+.app {
+  background: rgba(0, 0, 0, 0.048);
+  height: 700px!important;
+  margin: 20px;
+}
+
+.row {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.navBar1 {
+  background: rgb(0, 107, 179);
+}
+
+.navBar {
+  background: rgba(0, 0, 0, 0.267);
+}
+
+
+.searchInp {
+  background: rgba(255, 255, 255, 0.397);
+  border: none;
+  height: 30px;
+  color: whitesmoke;
+}
+
+::placeholder {
+  color: white;
+  padding-left: 5px;
+  font-weight: 700;
+}
+
+
+ .trello {
+   font-family: 'Galada', cursive;
+   color: rgba(255, 255, 255, 0.555);
+  height: 18px;
+ }
+
+ .trello:hover {
+   color: white;
+   cursor: pointer;
+ }
+
+ .fa-home {
+  background-color: rgba(255, 255, 255, 0.397);;
+  color: white;
+  padding: 7px;
+  cursor: pointer;
+ }
+
+ .button {
+  background: rgba(255, 255, 255, 0.397);
+  color: white;
+  border: none;
+ }
+
+ .button:hover {
+   background-color: rgba(255, 255, 255, 0.473);
+   color: white;
+ }
+
+ .addBtn {
+   color: rgba(119, 119, 119, 0.842);
+ }
+
+ .addBtn:hover {
+   background: rgba(214, 214, 214, 0.514);
+   color: black;
+   cursor: pointer;
+ }
+
+ .m-c {
+   background: rgba(255, 255, 255, 0.438);
+ }
+
+ #mainContainer {
+   overflow: scroll;
+   height: 95.5vh;
+   width: 100%;
+ }
+
+ .list {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+ }
